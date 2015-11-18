@@ -27,6 +27,7 @@ $(function(){
 			myScroll.scrollToElement($(this)[0], 150, true, false, IScroll.ease.quadratic);
 		})
 
+		//实例化之前，要算出滑动区域的宽度/高度。
 		var myScroll = new IScroll('#wrapper', {
 			scrollX: true,
 			tap: "tapIscroll"
