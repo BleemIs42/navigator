@@ -1,0 +1,140 @@
+html{
+	font-family: "Microsoft YaHei";
+	font-size: 16px;
+	background-color: #44414C;	
+}
+.page{
+	width:100%;
+	margin-bottom: 50px;
+	background-image:url(../images/bg.jpg);4
+	background-size: cover;
+	background-position: 50% 50%;
+}
+.text{
+	padding-top:50px;
+	text-align: center;
+}
+.text p{
+	margin:0;
+}
+.title{
+	letter-spacing: 5px;
+	color:#fff;
+	font-size: 1.5rem;
+}
+.desc{
+	padding-top: 10px;
+	font-size:1.2rem;
+	color:#BBBBC1;
+}
+.content{
+	position: relative;
+	width:80%;
+	left:10%;
+	margin-top: 20px;
+}
+.navigator{
+	width:100%;
+	vertical-align:top;
+}
+.contenner{
+	position: relative;
+	width:100%;
+}
+.imgs{
+	position:relative;
+	width:100%;
+	padding-top: 133.33%;
+}
+.imgs img{
+	position:absolute;
+	top:0;
+	width:100%;
+	vertical-align:top;
+	opacity: 0;
+}
+.imgs .current{
+	opacity:1;
+	transition: opacity 0.8s;
+	-webkit-transition: opacity 0.8s;
+}
+.category{
+	position: absolute;
+	top:0;
+	width:100%;
+	background-color: #7A7272;
+	opacity: 0.8;
+	overflow:hidden; 
+}
+.category ul{
+	position: relative;
+	left:50%;
+	transform: translateX(-1.7rem);
+	transition: transform 1s;
+	-webkit-transform: -webkit-translateX(-1.7rem);
+	-webkit-transition: -webkit-transform 1s;
+	width:120%;
+	margin:0;
+	padding:0;
+}
+.category ul li{
+	float:left;
+	font-size: 0.9rem;
+	line-height: 1rem;
+	color:#C9C6C6;
+	padding: 0.3rem 0.6rem;
+	list-style: none;
+}
+.category .active{
+	/*font-size: 1rem;*/
+	transform:scale(1.1, 1);
+	color:#fff;
+}
+.clearfloat:after{
+	visibility: hidden;
+    display: block;
+    clear: both;
+    content: "";
+    height: 0;	
+}
+.album{
+	position: absolute;
+	bottom:0;
+	width:100%;
+	display:block;
+}
+.footer{
+	width:100%;
+	/*margin-bottom: 4%;*/
+	background-color: #545151;
+}
+.footer img{
+	width:100%;
+	vertical-align: top;
+}
+.download img{
+	position:fixed;
+	bottom: 0;
+	width:100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
