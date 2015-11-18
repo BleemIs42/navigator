@@ -1,0 +1,39 @@
+*{
+	margin:0;
+	padding:0;
+}
+.clearfloat:after{
+	visibility: hidden;
+    display: block;
+    clear: both;
+    content: "";
+    height: 0;	
+}
+.nav{
+	position:relative;
+	width:100%;
+	margin-top: 50px;
+	background-color: #ccc;
+	overflow: hidden;
+}
+.nav ul{
+	width:200%;
+	height:40px;
+	list-style: none;
+}
+.nav ul li{
+	float:left;
+	padding:0 20px;
+	font-size: 20px;
+	line-height: 40px;
+}
+.line{
+	position:absolute;
+	bottom:0;
+	width:40px;
+	height:3px;
+	background-color: red;
+	transition: transform 0.2s;
+	-webkit-transition: -webkit-transform 0.2s;
+
+}
