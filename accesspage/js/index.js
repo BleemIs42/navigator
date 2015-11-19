@@ -14,7 +14,7 @@ window.onload = function (){
 		}
 		count++;
 		list.style.transform = "translate(" + ( (count - index)*offset - init )+ "rem, 0)";
-		list.style.transform = "-webkit-translate(" + ( (count - index)*offset - init )+ "rem, 0)";
+		list.style.webkitTransform = "translate(" + ( (count - index)*offset - init )+ "rem, 0)";
 		imgs[count - index].className = "current";
 		list.children[count - index].className = "active";
 		if(count == (len + index) ){

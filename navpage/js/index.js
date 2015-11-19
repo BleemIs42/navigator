@@ -15,7 +15,7 @@ $(document).ready(function(){
 			var offset = swiper.virtualSize / 10 * swiper.clickedIndex;
 			mySwiper.slideTo(swiper.clickedIndex - 2);
 			$(".line").css("transform", "translate(" + offset + "px, 0)");
-			$(".line").css("-webkit-transform", "-webkit-translate(" + offset + "px, 0)");
+			$(".line").css("-webkit-transform", "translate(" + offset + "px, 0)");
 		}
     });
 });
