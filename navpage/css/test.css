@@ -37,3 +37,28 @@
 	-webkit-transition: -webkit-transform 0.2s;
 
 }
+
+header{            
+    position: fixed;
+    width:100%;
+    background-color: #fbfafa;
+    box-shadow: 0 3px 10px #dad7d7;
+    z-index: 10;
+}
+header ul{
+    text-align: center;
+}
+header ul li{
+    float:left;
+    // width:80px;
+    margin:0 5px;
+    line-height: 40px;
+    list-style: none;
+    border-top: 4px solid #fbfafa;
+    border-bottom: 4px solid #fbfafa;
+    cursor: pointer;
+}
+header ul .active{
+    border-top-color: #4ae7fb;
+    color:#4ae7fb;
+}
